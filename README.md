@@ -2,6 +2,8 @@
 
 This Discord bot updates its nickname every 1.5 minutes to the current price of a chosen stock (e.g., "$245.67" for Tesla) and its activity every 5 minutes to the 24-hour percentage change (e.g., "+1.25% TSLA"). It uses the [yfinance](https://pypi.org/project/yfinance/) library to fetch real-time stock data from Yahoo Finance and can be configured to track any stock supported by Yahoo Finance.
 
+https://media.discordapp.net/attachments/1041966384428634162/1373847406512308295/Screenshot_2025-05-18_at_10.17.41_PM.png?ex=682be69a&is=682a951a&hm=01bc7f2a74bddf99704cc5cbea20ff89ab5995e2416732965b9d00002f0958a9&=&format=webp&quality=lossless&width=856&height=344
+
 ## Features
 - **Nickname Updates**: Displays the stock’s price as the bot’s nickname in all servers (requires "Change Nickname" permission).
 - **Activity Updates**: Shows the 24-hour percentage change as the bot’s activity status.
