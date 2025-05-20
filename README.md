@@ -43,9 +43,9 @@ This Discord bot updates its nickname every 1.5 minutes to the current price of 
 
 4. **Run the Bot**
    ```bash
-   python stock_price_bot.py
+   python bot.py
    ```
-   - Or use `python3 stock_price_bot.py` if required.
+   - Or use `python3 bot.py` if required.
    - The bot will log in and start updating its nickname and activity.
 
 5. **Invite the Bot to Servers**
@@ -88,7 +88,7 @@ To track a different stock, update the `STOCK_TICKER` in the `.env` file. The bo
 
 3. **Restart the Bot**
    ```bash
-   python stock_price_bot.py
+   python bot.py
    ```
    - The bot will now track the new stock (e.g., nickname: “$175.23”, activity: “+1.25% AAPL”).
 
