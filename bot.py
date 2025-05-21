@@ -94,10 +94,10 @@ async def update_activity():
         await asyncio.sleep(0.5)  # Wait briefly to ensure clear
         # Set activity with 24h percentage change
         sign = '+' if change_24h >= 0 else ''  # Determine sign for percentage
-        activity = discord.CustomActivity(name=f"{sign}{change_24h:.2f}% {STOCK_TICKER}")
+        activity = discord.CustomActivity(name=f"{sign}{change_24h:.2f}% | {STOCK_TICKER} on NASDAQ.")
         await client.change_presence(activity=activity)
         # Log activity update
-        logging.info(f'Activity set to: {sign}{change_24h:.2f}% {STOCK_TICKER}')
+        logging.info(f'Activity set to: {sign}{change_24h:.2f}% | {STOCK_TICKER} on NASDAQ.')
 
     except Exception as e:
         # Log any errors during activity update
